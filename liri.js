@@ -10,6 +10,8 @@ var spotify = require('spotify');
 var inquirer = require ('inquirer'); 
 var keys = require('./keys.js')
 
+
+//Question to initiate requests 
 var mainQuestion = {
     type: 'list',
     name: 'command',
@@ -42,12 +44,6 @@ function combineQuery(){
 	} 
 }
 
-/*var client = new Twitter({
-	consumer_key: keys.twitterKeys.consumer_key,
-	consumer_secret: keys.twitterKeys.consumer_secret,
-	access_token_key: keys.twitterKeys.access_token_key,
-	access_token_secret: keys.twitterKeys.access_token_secret
-}); */
 
 function tweets(){ // this function displays the latest 20 tweets you made 
 	var params = { screen_name: 'Chad Chaney', count: 20 };
