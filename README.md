@@ -25,8 +25,8 @@ If you want to view the Twitter functionality, you will need a Twitter developer
 ## Getting Started 
 1. Clone this repository with `git clone <repo url>`.
 2. If you do not already have a Twitter developer account, create one with the instructions above.
-3. Visit your Twitter developer account and click the Keys and Access Tokens tab to get your consume key and secret. Copy and paste them where the `<input here>` tags are inside your keys-empty.js file.
-4. At the bottom of the same page, click the `Create my access token` button to get your access token key and secret. Copy the access token key and secret displayed at the bottom of the next screen. Paste them where the `<input here>` tags are inside keys-empty.js.
+3. Visit your Twitter developer account and click the Keys and Access Tokens tab to get your consume key and secret. Copy and paste them where the `<insert key here>` tags are inside your keys-empty.js file.
+4. At the bottom of the same page, click the `Create my access token` button to get your access token key and secret. Copy the access token key and secret displayed at the bottom of the next screen. Paste them where the `<insert key here>` tags are inside keys-empty.js.
 5. Rename and Save keys-empty.js as keys.js.
 6. Add your twitter username on line 96.
 6. Open a Terminal window or other Bash and navigate to the project folder. 
