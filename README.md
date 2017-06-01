@@ -3,7 +3,7 @@ A command-line Language Interpretation and Recognition Interface node applicatio
 
 
 ## Technologies Used 
-*Node.js
+Node.js
 *npm packages
 *request 
 *twitter 
