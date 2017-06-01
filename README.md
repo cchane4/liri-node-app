@@ -5,10 +5,10 @@ A command-line Language Interpretation and Recognition Interface node applicatio
 ## Technologies Used 
 *Node.js
 *npm packages: 
-	*request 
-	*twitter 
-	*spotify
-	*inquirer 
+	-request 
+		-twitter 
+			-spotify
+				-inquirer 
 
 ### Prereq's 
 * Node.js 
