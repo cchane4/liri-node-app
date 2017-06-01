@@ -45,16 +45,6 @@
   }
 
 
-
-
-
-
-
-
-
-
-
-
   // LIR'S CLI functionality 
   inquirer.prompt([{
           type: 'list',
@@ -103,7 +93,7 @@
 
   // displays the latest 10 tweets you made on the command line
   function tweets() {
-      var params = { screen_name: 'Chad Chaney', count: 10 };
+      var params = { screen_name: 'Chad Chaney', count: 10 }; //replace with your twittername
       client.get('statuses/user_timeline', params, function(error, tweets, response) {
           if (error) throw error;
           for (var i = 0; i < 10; i++) {
@@ -136,7 +126,7 @@
               return;
           } else if (!error && response.statusCode === 200) {
               var jsonData = JSON.parse(body);
-              /*var movieLog = "Title: " + jsonData.Title +
+              var movieLog = "Title: " + jsonData.Title +
                   "\nYear: " + jsonData.Year +
                   "\nRated: " + jsonData.Rated +
                   "\nIMDB Rating: " + jsonData.imdbRating +
@@ -145,8 +135,8 @@
                   "\nPlot: " + jsonData.Plot +
                   "\nActors: " + jsonData.Actors +
                   "\nRotten Tomatoes Rating: " + jsonData.tomatoRating +
-                  "\nRotton Tomatoes URL: " + jsonData.tomatoURL;*/
-              console.log(jsonData);
+                  "\nRotton Tomatoes URL: " + jsonData.tomatoURL;
+              console.log(movieLog);
 
           }
       });
