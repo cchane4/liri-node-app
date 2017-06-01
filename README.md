@@ -1,15 +1,13 @@
 # liri-node-app
 A command-line Language Interpretation and Recognition Interface node application (or LIRI for short). This application can provide data about a given movie or music tracks and can also display the user's 10 most recent tweets.
 
-
-## Technologies Used 
-*Node.js
-*npm packages: 
-Markup : *request 
-		 *twitter 
-		 *spotify
-		 *inquirer 
-
+## Technologies Used
+* Node.js
+* npm packages
+  * twitter
+  * request
+  * inquirer
+  
 ### Prereq's 
 * Node.js 
 * a twitter developer account 
