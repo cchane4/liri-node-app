@@ -4,7 +4,6 @@
   var Twitter = require('twitter');
   var spotify = require('spotify');
   var inquirer = require('inquirer');
-  var keys = require('./keys.js');
   var client = new Twitter(keys.twitterKeys);
 
   // META-FUNCTION: user prompted with options for a request, then program will execute request //////
@@ -45,7 +44,7 @@
   }
 
 
-  // LIR'S CLI functionality 
+  // LIR'S CLI functionality
   inquirer.prompt([{
           type: 'list',
           name: 'command',
@@ -69,7 +68,7 @@
               return answers.command === 'movie-this';
           }
       },
-      // Asks for confirmation 
+      // Asks for confirmation
       {
           type: 'confirm',
           message: 'Are you sure:',
